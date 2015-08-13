@@ -15,9 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-img {
-	max-width: 200px;
-}
 
 /** Header Navigation **/
 header .navbar {
@@ -140,8 +137,123 @@ header .navbar-default .navbar-toggle .icon-bar {
 	}
 }
 
-/** Footer Navigation **/
-footer .navbar-default {
-	background: transparent;
+
+/** Page -- Staff **/
+
+#staff {
+	background-color: #e4d29d;
+	background-image: linear-gradient(to bottom, #e4d29d, #cdae50);
 }
+
+.doctor {
+	margin: 10px 0;
+}
+
+.doctor h3 {
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #6f4e36;
+	padding-bottom: 5px;
+}
+
+.doctor p {
+	font-size: .8em;
+}
+
+.doctor img {
+	width: 100%;
+}
+
+
+/** Page -- Testimonials **/
+#testimonials {
+	padding: 0;
+}
+
+#testimonials h2 {
+	display: none;
+}
+
+#testimonials blockquote {
+	margin: 0;
+	padding: 0;
+	border-left: none;
+	min-height: 500px;
+	position: relative;
+
+}
+
+#testimonials blockquote .quote {
+	background-color: rgba(255,255,255,.6);
+	padding: 20px 5%;
+	position: absolute;
+	bottom: 0;
+	width: 75%;
+	font-weight: 400;
+	border-radius: 0 50px 0 0;
+}
+
+#testimonials blockquote .quote:hover {
+	background-color: rgba(239,240,196,.9);
+}
+
+#testimonials #janeh {
+	background: url(../images/testimonial-janeh.jpg) no-repeat center;
+	background-size: cover;
+}
+
+
+#testimonials #johnb {
+	background: url(../images/testimonial-johnb.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#testimonials #mcphersons {
+	background: url(../images/testimonial-mcphersons.jpg) no-repeat center;
+	background-size: cover;
+}
+
+
+#testimonials #lorraines {
+	background: url(../images/testimonial-lorraines.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#testimonials .quote .more, #testimonials .quote .customer {
+	opacity: 0;
+	font-size: 0;
+	line-height: 0;
+	padding-top: 0;
+}
+
+
+#testimonials .quote:hover .more {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	display: block;
+	opacity: 1;
+	font-size: .8em;
+	line-height: 120%;
+}
+
+
+#testimonails .quote:hover .customer {
+	display: block;
+	font-size: .7em;
+	text-align: right;
+}
+
+
+#testimonials .quote .intro::after {
+	content: "...";
+}
+
+#testimonials .quote:hover .intro::after{
+	content: "";
+}
+
+
+/** Footer Navigation **/
+
+
 
