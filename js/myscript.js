@@ -1,3 +1,8 @@
-$('.carousel').carousel({
-  interval: false
+$(function() {
+
+	"use strict";
+
+	$('.carousel').carousel({
+	  interval: false
+	});
 });
