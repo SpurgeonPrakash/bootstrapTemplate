@@ -6,7 +6,7 @@ Combine HTML, CSS, Javascript, jQuery, and Bootstrap to create a responsive sing
 
 ###Starting Point:
 
-(/images/startingpoint.jpg)
+![](/images/startingpoint.jpg)
 
 Starting with a basic HTML page with no styling, creative a responsive website with the following features:
 
